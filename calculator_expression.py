@@ -30,7 +30,8 @@ class CalculatorExpression:
                 i += 1
             else:
                 raise Exception(
-                    f"SYNTAX ERROR! '{self.expression_str[i]}' is not valid syntax!"
+                    f"SYNTAX ERROR! '{
+                        self.expression_str[i]}' is not valid syntax!"
                 )
         return tokens
 
